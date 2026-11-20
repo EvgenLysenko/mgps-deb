@@ -1,0 +1,13 @@
+[Unit]
+Description=Mgps
+
+[Service]
+Type=simple
+Restart=always
+PIDFile=/run/mgps.pid
+ExecStart=/opt/mgps/mgps
+WorkingDirectory=/opt/mgps
+
+[Install]
+WantedBy=default.target
+

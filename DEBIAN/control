@@ -1,0 +1,5 @@
+Package: mgps
+Version: 2.3.2
+Architecture: arm64
+Description: MGPS application for Orange Pi.
+Maintainer: seaman@astranav.com
